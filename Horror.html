@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="trending.js"></script>
+  <title>Netflix Clone</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div class="nav">
+    <div class="left">
+      <div class="nav-link">
+        <a href="index.html"><img src="logo.svg" alt="" class="nav-logo"></a>
+        <a href="index.html">Home</a>
+        <a href="trending.html">Netflix Originals</a>
+        <a href="netflix.html">Netflix Originals</a>
+        <a href="Action.html">Action</a>
+        <a href="Romance.html">Romance</a>
+        <a href="Documentaries.html">Documentaries</a>
+      </div>
+    </div>
+    <div class="right">
+      <img src="https://i.pinimg.com/1200x/c3/53/7f/c3537f7ba5a6d09a4621a77046ca926d.jpg" class="avatar">
+    </div>
+  </div>
+
+  <!--Banner-->
+  <header id="banner">
+    <div class="banner-content">
+      <h1 id="banner-title"></h1>
+     
+      <div class="desc">
+        <p id="banner-desc"></p>
+      </div>
+      <div class="banner-buttons">
+        <button class="play-btn"><i class="fa fa-play" aria-hidden="true"></i> Play</button>
+        <button class="desc-btn"><i class="fa fa-info-circle" aria-hidden="true"></i> Info</button>
+      </div>
+    </div>
+    <div class="banner-fade"></div>
+  </header>
+
+  <!--movie-->
+  <div id="headrow">
+    <div class="row">
+      <h2 class="row__title"></h2>
+      <div class="row__posters"></div>
+    </div>
+  </div>
+  <script>
+    window.addEventListener("scroll",function(){
+      var nav = document.querySelector(".nav");
+      nav.classList.toggle(active,window.scroll>0);
+    })
+  </script>
+</body>
+</html>

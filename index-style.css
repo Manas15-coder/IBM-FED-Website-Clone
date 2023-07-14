@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kumbh+Sans:wght@700&family=Lora:ital,wght@0,400;0,600;0,700;1,600&family=News+Cycle:wght@700&family=Noticia+Text:ital,wght@1,700&family=Nunito+Sans:wght@300;400&family=Open+Sans:ital,wght@0,300;0,500;0,700;1,700&family=Poppins:wght@500;600;700&family=Rampart+One&family=Roboto+Mono:wght@500;700&family=Roboto+Slab:wght@300&family=Roboto:wght@100;700&family=Sora:wght@500;600&family=Teko:wght@600&family=Urbanist:ital,wght@1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.heroimage{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.912) 0,transparent 60%,rgba(0, 0, 0, 0.944)),url("https://assets.nflxext.com/ffe/siteui/vlv3/bff5732c-7d13-45d1-9fab-476db25a1827/46bc87cd-4c4c-4485-8b93-d5f21c581d56/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:1000px;
+}
+
+.langauge{
+    top:20px;
+    background-color: transparent;
+    border: 1px solid white;
+    justify-content: end;
+}
+.signin{
+    top:20px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    color:white;
+    padding: 10px 20px;
+}
+.section-title{
+    font-size: 50px;
+}
+.title-1{
+    margin-top: 10%;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-size: 50px;
+    letter-spacing: normal;
+}
+.title-2{
+    line-height: 1.8;
+    font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.title-3{
+    font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+.input{
+    padding: 10px 20px;
+    height:50px;
+    width:400px;
+    border:1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%)
+}
+.input::placeholder{
+    color:#fff;
+}
+.input-text-group{
+    border:none;
+    text-decoration: none;
+    color:#fff;
+}
+.input-text-group{
+    background-color: #e50914;
+    border-radius: 5px;
+    font-size:22px;
+    color:white;
+    padding:10px;
+
+}
+
+.input-text-group:hover{
+    cursor:pointer;
+    background-color: red;
+}
+
+.container tv{
+    background-image: black;
+    width:100%;
+}
+section{
+    border-top: 8px solid #222;
+    background-color: black;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+@media only screen and (min-width:769px){
+    .img{
+        width: 400px;
+    }
+
+}
+@media only screen and (max-width:769px){
+    .img{
+        width: 250px;
+    }
+}
+.card{
+    margin: 5px;
+}
+.card-body{
+    font-size: 30px;
+}
+.accordion-button{
+    cursor: pointer;
+    background-color: #222;
+    color:white;
+}
+.readytowatch{
+    background-color: black;
+}
+.call a{
+    margin-top:10px;
+    color:grey;
+}
+footer{
+    background-color: black;
+    border-top:8px solid #222;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color:grey;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+}
